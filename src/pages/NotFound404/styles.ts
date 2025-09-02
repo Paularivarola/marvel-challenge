@@ -12,6 +12,7 @@ export const Wrapper = styled.section`
   overflow: hidden;
 
   > div:last-child {
+    display: none;
     align-self: end;
     position: static;
     height: auto;
