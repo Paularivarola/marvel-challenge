@@ -62,10 +62,8 @@ const CoverScroller = ({
                     loading="lazy"
                   />
                 </CoverWrapper>
-                <ItemTitle>{it.name}</ItemTitle>
-                {it.volume.name && (
-                  <ItemSubtitle>{it.volume.name}</ItemSubtitle>
-                )}
+                <ItemTitle>{it.volume.name}</ItemTitle>
+                {it.store_date && <ItemSubtitle>{it.store_date}</ItemSubtitle>}
               </>
             );
             return (

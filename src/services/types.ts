@@ -90,7 +90,7 @@ export interface RelatedComicCharacterResult {
   issue_number: string;
   name: string;
   site_detail_url: string;
-  store_date: Date;
+  store_date: string;
   volume: Volume;
 }
 

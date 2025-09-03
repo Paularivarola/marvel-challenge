@@ -95,8 +95,9 @@ export const CoverImage = styled.img`
 export const ItemTitle = styled.h3`
   margin: 8px 0 0;
   font-size: clamp(14px, 1.2vw, 18px);
-  font-weight: 800;
+  font-weight: 600;
   line-height: 1.25;
+  color: black;
 `;
 
 export const ItemSubtitle = styled.p`
